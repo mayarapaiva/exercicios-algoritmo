@@ -6,4 +6,4 @@ let aumento = salario + (salario * 0.15);
 
 let moeda = aumento.toLocaleString("pt-BR", {style: "currency", currency: "BRL"});
 
-document.write(` Seu novo sálário será de ${moeda}`);
+console.log(` Seu novo sálário será de ${moeda}`);
